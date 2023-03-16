@@ -19,7 +19,7 @@ example Crispy Form and FormPluginFormMixin enabled ModelForm for a
 CMS plugin: ::
 
     from django import forms
-    from django.core.urlresolvers import reverse
+    from django.urls import reverse
 
     from cmsplugin_form_handler.forms import FormPluginFormMixin
     from crispy_forms.helper import FormHelper
