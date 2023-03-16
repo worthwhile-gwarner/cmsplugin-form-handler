@@ -2,7 +2,7 @@
 
 from django.conf import settings
 from django.core.exceptions import ImproperlyConfigured
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.db.models import Max
 from django.test.utils import override_settings
 
